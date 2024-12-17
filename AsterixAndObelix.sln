@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E880BB3-3112-493C-A945-75D15C029390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsterixAndObelix.Asterix", "src\Asterix\AsterixAndObelix.Asterix.csproj", "{FC809CCB-BD7E-4A77-B72A-551D49B4CE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsterixAndObelix.Obelix", "src\Obelix\AsterixAndObelix.Obelix.csproj", "{4513765F-E42B-4614-80E5-C98C812B6E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsterixAndObelix.Shared", "src\Shared\AsterixAndObelix.Shared.csproj", "{919E6AEF-9CAF-498E-8942-C961FCC72FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC809CCB-BD7E-4A77-B72A-551D49B4CE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC809CCB-BD7E-4A77-B72A-551D49B4CE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC809CCB-BD7E-4A77-B72A-551D49B4CE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC809CCB-BD7E-4A77-B72A-551D49B4CE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4513765F-E42B-4614-80E5-C98C812B6E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4513765F-E42B-4614-80E5-C98C812B6E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4513765F-E42B-4614-80E5-C98C812B6E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4513765F-E42B-4614-80E5-C98C812B6E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919E6AEF-9CAF-498E-8942-C961FCC72FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919E6AEF-9CAF-498E-8942-C961FCC72FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919E6AEF-9CAF-498E-8942-C961FCC72FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919E6AEF-9CAF-498E-8942-C961FCC72FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC809CCB-BD7E-4A77-B72A-551D49B4CE34} = {6E880BB3-3112-493C-A945-75D15C029390}
+		{4513765F-E42B-4614-80E5-C98C812B6E63} = {6E880BB3-3112-493C-A945-75D15C029390}
+		{919E6AEF-9CAF-498E-8942-C961FCC72FF3} = {6E880BB3-3112-493C-A945-75D15C029390}
+	EndGlobalSection
+EndGlobal

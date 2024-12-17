@@ -1,0 +1,6 @@
+@AsterixAndObelix.Obelix_HostAddress = http://localhost:5289
+
+GET {{AsterixAndObelix.Obelix_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
